@@ -1,5 +1,6 @@
-*.ini
-*.iml
-basic-code-trial/.idea/*
-basic-code-trial/out/*
-*.class
+**.ini
+**.iml
+basic-code-trial/.idea/**
+basic-code-trial/.idea/workspace.xml
+basic-code-trial/out/**
+**.class
