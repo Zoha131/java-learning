@@ -1,4 +1,5 @@
 *.ini
 *.iml
-.idea/*
-out/*
+basic-code-trial/.idea/*
+basic-code-trial/out/*
+*.class
