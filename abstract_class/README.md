@@ -30,6 +30,7 @@ class is concrete, but its subclasses, such as GeometricObject, may be abstract.
 * You cannot create an instance from an abstract class using the new operator, but an
 abstract class can be used as a data type. Therefore, the following statement, which
 creates an array whose elements are of the GeometricObject type, is correct.
+
 ```java
 GeometricObject[] objects = new GeometricObject[10];
 ```
