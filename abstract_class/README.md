@@ -1,7 +1,7 @@
 ## Notes
 
 An abstract class cannot be used to create objects. An abstract class can contain
-abstract methods, which are implemented in concrete subclasses
+abstract methods, which are implemented in concrete subclasses.
 
 The following points about abstract classes are worth noting:
 * An abstract method cannot be contained in a nonabstract class. If a subclass of an
