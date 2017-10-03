@@ -4,11 +4,14 @@ I am zoha student of Daffodil International University. In this repo I am going 
 ## Java Topics
 
 1. Basic OOP Concepts
+  * Property, Constructor, Method
+  * Class Relationship (Book)
   * Inheritance
   * Polymorphism
+  * Encapsulation
   * Access Modifier & Scope
   * static & final Keyword
-  * Abstract Class & Interface
+  * Inner Class, Abstract Class & Interface
   * Generics
   * Naming Convention
 1. Exception Handling
