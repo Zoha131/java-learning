@@ -4,26 +4,26 @@ I am zoha student of Daffodil International University. In this repo I am going 
 ## Java Topics
 
 1. Basic OOP Concepts
-  * Property, Constructor, Method
-  * Class Relationship (Book)
-  * Inheritance
-  * Polymorphism
-  * Encapsulation
-  * Access Modifier & Scope
-  * static & final Keyword
-  * Inner Class, Abstract Class & Interface
-  * Generics
-  * Naming Convention
+    * Property, Constructor, Method
+    * Class Relationship (Book)
+    * Inheritance
+    * Polymorphism
+    * Encapsulation
+    * Access Modifier & Scope
+    * static & final Keyword
+    * Inner Class, Abstract Class & Interface
+    * Generics
+    * Naming Convention
 1. Exception Handling
 1. Java Collection
-  * List
-  * Stack
-  * Queue
-  * Set
-  * Map
+    * List
+    * Stack
+    * Queue
+    * Set
+    * Map
 1. I/O Operation
-  * Text I/O
-  * Binary I/O
+    * Text I/O
+    * Binary I/O
 1. JavaFX
 1. Event Driven Programming & Observable
 1. Multithreading and Parallel Programming/Concurrency
