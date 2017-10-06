@@ -9,7 +9,7 @@ public class MultiThread {
         Thread thread_1 = new Thread(task_1);
         Thread thread_2 = new Thread(task_2);
         Thread thread_3 = new Thread(task_3);
-        
+
 
         thread_1.start();
         thread_2.start();
