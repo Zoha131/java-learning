@@ -30,3 +30,15 @@ I am zoha student of Daffodil International University. In this repo I am going 
 1. Debugging and Unit Testing
 1. Multithreading and Parallel Programming/Concurrency
 1. Networking
+
+
+## Java 8 Features
+
+1. Lambda Expression
+2. Stream API & Collector
+3. Nashorn: A Javascript Engine on the JVM
+
+## Java 9 Features
+
+1. Java Platform Module System
+1. Jshell
