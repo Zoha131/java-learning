@@ -5,7 +5,7 @@ I am zoha student of Daffodil International University. In this repo I am going 
 
 1. Basic OOP Concepts
     * Class & Object
-    * Property, Constructor, Method
+    * Data Field, Constructor, Method
     * Access Modifier & Scope
     * static & final Keyword
     * Class Relationship (Book)
