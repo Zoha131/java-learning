@@ -17,7 +17,7 @@
     2. Constructor
     3. Method
 
-![Class Picture](./class.png)
+![Class Picture](class.png)
 
 
 #### UML Notation
@@ -37,7 +37,7 @@ The method is denoted as
 methodName(parameterName: parameterType): returnType
 ```
 
-![UML](./uml.png)
+![UML](uml.png)
 
 
 
