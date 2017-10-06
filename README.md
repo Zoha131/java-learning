@@ -26,7 +26,7 @@ I am zoha student of Daffodil International University. In this repo I am going 
     * Binary I/O
 1. JavaFX
 1. Event Driven Programming & Observable
-1. Multithreading and Parallel Programming/Concurrency
 1. Database Programming
 1. Debugging and Unit Testing
+1. Multithreading and Parallel Programming/Concurrency
 1. Networking
