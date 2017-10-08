@@ -53,8 +53,7 @@
 
   *```NullPointerException``` is a common runtime error. It occurs when you invoke a method on a reference variable with a null value. Make sure you assign an object reference to the variable before invoking the method through the reference variable*
 
-* If you know that an object is no longer needed, you can explicitly assign null to a reference variable for the object. The JVM will automatically collect the space if the object is
-not referenced by any reference variable.
+* If you know that an object is no longer needed, you can explicitly assign null to a reference variable for the object. The JVM will automatically collect the space if the object is not referenced by any reference variable.
 
 
 
@@ -82,6 +81,25 @@ not referenced by any reference variable.
 ---
 ### Method
 
+* When an object reference is passed to a method, the reference itself is passed by use of call-by-value. However, since the value being passed refers to an object, the copy of that value will still refer to the same object that its corresponding argument does.
+
+
+* A method can return any type of data, including class types that you create. For example, in the following program, the **incrByTen( )** method returns an object in which the value of a is ten greater than it is in the invoking object.
+  ```java
+  // Returning an object.
+  class Test {
+    int a;
+    Test(int i) {
+      a = i;
+    }
+    Test incrByTen() {
+      Test temp = new Test(a+10);
+      return temp;
+    }
+  }
+  ```
+  The preceding program makes another important point: Since all objects are dynamically allocated using new, you don’t need to worry about an object going out-of-scope because the method in which it was created terminates. The object will continue to exist as long as there is a reference to it somewhere in your program. When there are no references to it, the object will be reclaimed the next time garbage collection takes place.
+
 * Sometimes an object will need to perform some action when it is destroyed.  To handle such situations, Java provides a mechanism called ```finalization```. By using finalization, you can define specific actions that will occur when an object is just about to be reclaimed by the garbage collector.
 
   To add a finalizer to a class, you simply define the ```finalize( )``` method. The Java run time calls that method whenever it is about to recycle an object of that class.
@@ -92,6 +110,9 @@ not referenced by any reference variable.
   // finalization code here
   }
   ```
+
+
+
 
 
 ## Readings

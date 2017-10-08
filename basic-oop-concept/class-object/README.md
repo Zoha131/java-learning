@@ -8,9 +8,21 @@
     1. The state of an object (also known as its properties or attributes) is represented by data fields with their current values.
     2. The behavior of an object (also known as its actions) is defined by methods.
 
+* Obtaining objects of a class is a two-step process:
+    1. First, you must declare a variable of the class type. This variable does not define an object. Instead, it is simply a variable that can refer to an object.
+    2. Second, you must acquire an actual, physical copy of the object and assign it to that variable. You can do this using the ```new operator```.
+
+    The new operator dynamically allocates (that is, allocates at run time) memory for an object and returns a reference to it. This reference is, more or less, the address in memory of the object allocated by new. This reference is then stored in the variable. Thus, in Java, all class objects must be dynamically allocated. Let’s look at the details of this procedure:
+
+    ![New Operator](../../images/new_operator.png)
+
+* When you assign one object reference variable to another object reference variable, you are not creating a copy of the object, you are only making a copy of the reference.
+
 ---
 
 #### Class
+
+* Any concept you wish to implement in a Java program must be encapsulated within a class. Perhaps the most important thing to understand about a class is that it defines a new data type.
 
 * A class can be defined as a template/blueprint that describes the behavior and state of the object of its type support.
 
@@ -20,6 +32,8 @@
     3. Method
 
 ![Class Picture](class.png)
+
+* Variables defined within a class are called instance variables because each instance of the class (that is, each object of the class) contains its own copy of these variables.
 
 ---
 
