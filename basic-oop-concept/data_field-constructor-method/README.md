@@ -100,6 +100,45 @@
   ```
   The preceding program makes another important point: Since all objects are dynamically allocated using new, you don’t need to worry about an object going out-of-scope because the method in which it was created terminates. The object will continue to exist as long as there is a reference to it somewhere in your program. When there are no references to it, the object will be reclaimed the next time garbage collection takes place.
 
+* ```varargs: ```
+    * A method that takes a variable number of arguments is called a variable-arity method, or simply a varargs method.
+
+    * A variable-length argument is specified by three periods (…). For example, here is how
+    vaTest( ) is written using a vararg:
+    ```java
+    static void vaTest(int ... v) { }
+    ```
+    ```java
+        // Demonstrate variable-length arguments.
+    class VarArgs {
+      // vaTest() now uses a vararg.
+      static void vaTest(int ... v) {
+        System.out.print("Number of args: " + v.length +
+        " Contents: ");
+        for(int x : v)
+        System.out.print(x + " ");
+        System.out.println();
+      }
+      public static void main(String args[])
+      {
+        // Notice how vaTest() can be called with a
+        // variable number of arguments.
+        vaTest(10); // 1 arg
+        vaTest(1, 2, 3); // 3 args
+        vaTest(); // no args
+      }
+    }
+    ```
+    * A method can have “normal” parameters along with a variable-length parameter. However, the variable-length parameter must be the last parameter declared by the method.
+    ```java
+    int doIt(int a, int b, double c, int ... vals) { }
+    int doIt(int a, int b, double c, int ... vals, boolean stopFlag) { }// Error!
+    ```    
+    * There is one more restriction to be aware of: there must be only one varargs parameter. For example, this declaration is invalid:
+    ```java
+    int doIt(int a, int b, double c, int ... vals, double ... morevals) { // Error!
+    ```
+
 * Sometimes an object will need to perform some action when it is destroyed.  To handle such situations, Java provides a mechanism called ```finalization```. By using finalization, you can define specific actions that will occur when an object is just about to be reclaimed by the garbage collector.
 
   To add a finalizer to a class, you simply define the ```finalize( )``` method. The Java run time calls that method whenever it is about to recycle an object of that class.
