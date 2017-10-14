@@ -18,6 +18,8 @@
 
 * When you assign one object reference variable to another object reference variable, you are not creating a copy of the object, you are only making a copy of the reference.
 
+* Arrays are treated as objects in Java. Arrays are created using the ```new operator```. An array variable is actually a variable that contains a reference to an array
+
 ---
 
 #### Class
