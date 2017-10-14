@@ -35,6 +35,11 @@
 
 * Variables defined within a class are called instance variables because each instance of the class (that is, each object of the class) contains its own copy of these variables.
 
+* For a class to be immutable, it must meet the following requirements:
+    1. All data fields must be private.
+    2. There can’t be any mutator methods for data fields.
+    3. No accessor methods can return a reference to a data field that is mutable.
+
 ---
 
 #### UML Notation

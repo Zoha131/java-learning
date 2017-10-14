@@ -25,6 +25,7 @@
     }
   }
   ```
+* A hidden static variable can be accessed simply by using the ```ClassName.staticVariable``` reference. A hidden instance variable can be accessed by using the keyword ```this```.
 
 * A variable of a primitive type holds a value of the primitive type, and a variable of a reference type holds a reference to where an object is stored in memory (Like pointer in C).
 
@@ -51,7 +52,11 @@
   }
   ```
 
+  When an array of objects is created using the new operator, each element in the array is a reference variable with a default value of **null**.
+
   *```NullPointerException``` is a common runtime error. It occurs when you invoke a method on a reference variable with a null value. Make sure you assign an object reference to the variable before invoking the method through the reference variable*
+
+* Syntax errors will occur if you compare strings by using relational operators >, >=, <, or <=. Instead, you have to use s1.compareTo(s2).
 
 * If you know that an object is no longer needed, you can explicitly assign null to a reference variable for the object. The JVM will automatically collect the space if the object is not referenced by any reference variable.
 
@@ -82,6 +87,8 @@
 ### Method
 
 * When an object reference is passed to a method, the reference itself is passed by use of call-by-value. However, since the value being passed refers to an object, the copy of that value will still refer to the same object that its corresponding argument does.
+
+* Java uses exactly one mode of passing arguments: pass-by-value. When passing an argument of a primitive data type, the value of the argument is passed. When passing an argument of a reference type, the reference of the object is passed. Pass-by-value on references can be best described semantically as pass-by-sharing; that is, the object referenced in the method is the same as the object being passed.
 
 
 * A method can return any type of data, including class types that you create. For example, in the following program, the **incrByTen( )** method returns an object in which the value of a is ten greater than it is in the invoking object.
