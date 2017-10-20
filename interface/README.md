@@ -18,6 +18,10 @@ using the new operator.
 
 * Class names are nouns. Interface names may be adjectives or nouns.
 
+* Since all data fields are public static final and all methods are public abstract in an interface, Java allows these modifiers to be omitted. Therefore the following interface definitions are equivalent:
+
+![Interface](../images/interface.png)
+
 * Abstract classes and interfaces can both be used to specify common behavior of objects. How do you decide whether to use an interface or a class? In general, a strong is-a relationship that clearly describes a parent-child relationship should be modeled using classes. For example, Gregorian calendar is a calendar, so the relationship between the class java.util.GregorianCalendar and java.util.Calendar is modeled using class inheritance. A weak is-a relationship, also known as an is-kind-of relationship, indicates that an object possesses a certain property. A weak is-a relationship can be modeled using interfaces. For example, all strings are comparable, so the String class implements the Comparable interface.
 
 ## Readings
