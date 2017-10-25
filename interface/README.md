@@ -1,6 +1,6 @@
 ## Notes
 
-* An interface is a class-like construct that contains only constants and abstract methods
+* An interface is a class-like construct that contains only constants and abstract methods.
 
 * You can use an interface more or less the same way
 you use an abstract class. For example, you can use an interface as a data type for a reference
@@ -11,8 +11,7 @@ instance from an interface using the new operator.
 
 * All variables must be public static final.
 
-* No constructors. An interface cannot be instantiated
-using the new operator.
+* No constructors. An interface cannot be instantiated using the new operator.
 
 * All methods must be public abstract instance methods.
 
