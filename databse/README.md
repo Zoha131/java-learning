@@ -3,7 +3,7 @@
 * You need to contruct the sql with string concatenation/placeholder with String.format. prepared statement is for the column values not for table name.
 
 ### sqlite table joining
-* **query statement: **
+* ** query statement: **
     ```java
     StringBuilder query = new StringBuilder();
     query.append("SELECT track, title, albums.name as album, artists.name as artist ");
@@ -21,7 +21,7 @@
     query.append("ORDER BY artists.name, albums.name, songs.track");
     ```
 
-* **getting resultset: **
+* ** getting resultset: **
 
     ```java
     int track = resultSet.getInt("track");
@@ -30,6 +30,6 @@
     String artist = resultSet.getString("artist");
     ```
 
-* **Links:**
+* ** Links: **
     * [SQLite/JDBC inner join](https://stackoverflow.com/questions/7620792/sqlite-jdbc-inner-join)
     * [How do you select from multiple tables in sqlite in Java?](https://stackoverflow.com/questions/25098939/how-do-you-select-from-multiple-tables-in-sqlite-in-java)
