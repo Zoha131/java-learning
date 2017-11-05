@@ -78,9 +78,10 @@
      }
   }
   ```
-* The access modifier of a Constructor must be public if you want to create objects from that class.
+* The access modifier of a Constructor must be public if you want to create objects from that class. However, the constructor can also be private if you don't want to have object of that class. Example: **Math** class.
 
-  However, the constructor can also be private if you don't want to have object of that class. Example: **Math** class.
+* An anonymous class does not have a constructor.
+
 
 
 ---
