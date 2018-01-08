@@ -39,7 +39,7 @@ I am zoha student of Daffodil International University. In this repo I am going 
 ## Java 8 Features
 
 1. Lambda Expression
-1. Method Reference
+1. [Method Reference](https://docs.oracle.com/javase/tutorial/java/javaOO/methodreferences.html)
 2. Stream API & Collector
 3. Nashorn: A Javascript Engine on the JVM
 
