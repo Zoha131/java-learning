@@ -37,6 +37,8 @@ instance from an interface using the new operator.
     }
     ```
 
+* [Default Method in interface that takes implementation](http://javarevisited.blogspot.com/2014/07/default-defender-or-extension-method-of-Java8-example-tutorial.html)
+
 ## Readings
 
 ## Problems
