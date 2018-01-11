@@ -23,6 +23,20 @@ instance from an interface using the new operator.
 
 * Abstract classes and interfaces can both be used to specify common behavior of objects. How do you decide whether to use an interface or a class? In general, a strong is-a relationship that clearly describes a parent-child relationship should be modeled using classes. For example, Gregorian calendar is a calendar, so the relationship between the class java.util.GregorianCalendar and java.util.Calendar is modeled using class inheritance. A weak is-a relationship, also known as an is-kind-of relationship, indicates that an object possesses a certain property. A weak is-a relationship can be modeled using interfaces. For example, all strings are comparable, so the String class implements the Comparable interface.
 
+* An interface can use extends keyword to create subinterfaces in Java e.g. following is perfectly legal in Java
+    ```java
+    interface J extends I{
+
+    }
+    ```
+*  An interface can even extend multiple interfaces by using extends keyword as shown below:
+
+    ```java
+    interface k extends I, J{
+
+    }
+    ```
+
 ## Readings
 
 ## Problems
